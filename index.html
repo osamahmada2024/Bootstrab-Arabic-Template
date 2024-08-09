@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrab Arabic Template</title>
+    <!--css stylesheet -->
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="font-awesome.min.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img class="mt-3 mb-3" src="images/logo.png" alt="img" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"
+                >الرئيسة <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">معلومات عنا</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-toggle="dropdown"
+                aria-expanded="false"
+              >
+                الصفحات
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">الصفحة 1</a>
+                <a class="dropdown-item" href="#">الصفحة 2</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#"> باقي الصفحات</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">مدونة</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">اتصل بنا</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item start specific active" data-interval="2500">
+          <img src="images/slide-bg-1.jpg" class="d-block w-100" alt="..." />
+          <div class="start-layer">
+            <h2>قالب Html قوي للانشاءات البسيطة</h2>
+            <p>
+              نحن نسعى جاهدين لتحقيق أحلام عملائنا، من خلال الجمع بين أفكارهم
+              وأسلوب حياتهم وميزانيتهم مع تجربتنا الخاصة.
+            </p>
+            <button class="btn btn-warning">اطلب اقتباس</button>
+          </div>
+        </div>
+        <div class="carousel-item start" data-interval="2500">
+          <img src="images/slide-bg-2.jpg" class="d-block w-100" alt="..." />
+          <div class="start-layer">
+            <h2>قالب Html قوي للانشاءات البسيطة</h2>
+            <p>
+              نحن نسعى جاهدين لتحقيق أحلام عملائنا، من خلال الجمع بين أفكارهم
+              وأسلوب حياتهم وميزانيتهم مع تجربتنا الخاصة.
+            </p>
+            <button class="btn btn-warning">اطلب اقتباس</button>
+          </div>
+        </div>
+        <div class="carousel-item start" data-interval="2500">
+          <img src="images/slide-bg-3.jpg" class="d-block w-100" alt="..." />
+          <div class="start-layer">
+            <h2>قالب Html قوي للانشاءات البسيطة</h2>
+            <p>
+              نحن نسعى جاهدين لتحقيق أحلام عملائنا، من خلال الجمع بين أفكارهم
+              وأسلوب حياتهم وميزانيتهم مع تجربتنا الخاصة.
+            </p>
+            <button class="btn btn-warning">اطلب اقتباس</button>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-target="#carouselExampleIndicators"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-target="#carouselExampleIndicators"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </button>
+    </div>
+
+    <section class="section home-section">
+      <div class="container">
+        <div class="row">
+          <div class="home-desc col-md-4 cpol-12">
+            <h2 class="section-title">تم الانتهاء من ذلك</h2>
+            <p>
+              نحن نسعى جاهدين لتحقيق أحلام عملائنا، من خلال الجمع بين أفكارهم
+              وأسلوب حياتهم وميزانيتهم ​​مع خبرتنا ومهاراتنا وأفضل الممارسات
+              لإنشاء منزل ممتع وعملي ومستدام وذو قيمة دائمة.
+            </p>
+            <button class="btn btn-warning">عرض جميع المشاريع</button>
+          </div>
+          <div class="col-md-8 cpol-12">
+            <img src="images/project-slide1.jpg" alt="img" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section news-section">
+      <div class="container">
+        <div class="row">
+          <div class="card-conainer col-lg-4 col-md-6 col-12">
+            <div class="card news-card" style="width: 100%">
+              <img
+                class="card-img-top"
+                src="images/service-item-bg-1.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">أفضل البناء</h5>
+                <p class="card-text">
+                  الألم في حد ذاته مهم جدًا، وسيتبعه، وسيحدث في نفس الوقت الذي
+                  يحدث فيه بعض العمل العظيم والألم. لكي نصل إلى أصغر التفاصيل،
+                  ما هو تمريننا؟
+                </p>
+                <a href="#" class="btn btn-warning">عرض التفاصيل</a>
+              </div>
+            </div>
+          </div>
+          <div class="card-conainer col-lg-4 col-md-6 col-12">
+            <div class="card news-card" style="width: 100%">
+              <img
+                class="card-img-top"
+                src="images/service-item-bg-2.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">أفضل البناء</h5>
+                <p class="card-text">
+                  الألم في حد ذاته مهم جدًا، وسيتبعه، وسيحدث في نفس الوقت الذي
+                  يحدث فيه بعض العمل العظيم والألم. لكي نصل إلى أصغر التفاصيل،
+                  ما هو تمريننا؟
+                </p>
+                <a href="#" class="btn btn-warning">عرض التفاصيل</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 col-12">
+            <div class="news">
+              <div class="news-item d-flex border-bottom mb-4">
+                <img class="mb-2" src="images/news-thumb-1.jpg" alt="img" />
+                <p class="mr-4">
+                  يساعد تطبيق البناء مشرفي البناءعلى وضع السلامة في المقام الأول
+                </p>
+              </div>
+              <div class="news-item d-flex border-bottom mb-4">
+                <img class="mb-2" src="images/news-thumb-2.jpg" alt="img" />
+                <p class="mr-4">
+                  يساعد تطبيق البناء مشرفي البناءعلى وضع السلامة في المقام الأول
+                </p>
+              </div>
+              <div class="news-item d-flex border-bottom mb-4">
+                <img class="mb-2" src="images/news-thumb-3.jpg" alt="img" />
+                <p class="mr-4">
+                  يساعد تطبيق البناء مشرفي البناءعلى وضع السلامة في المقام الأول
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section certificate-section">
+      <div class="container">
+        <h2 class="certificate-title section-title d-inline-block">شهادتنا</h2>
+        <div class="row">
+          <div class="certificate_container d-flex col-md-4 col-12">
+            <div class="certificate_img">
+              <img src="images/profile-img-1.jpg" alt="" />
+            </div>
+            <div class="certificate-desc mr-3">
+              <p>
+                الألم في حد ذاته مهم جدًا، ويتبعه زيادة في عدد الأشخاص، لكنه
+                يحدث في وقت يشعرون فيه بألم ومعاناة كبيرة، أو يتألمون
+              </p>
+              <span>أليستار كوك</span>
+              <span class="d-block">مصمم</span>
+            </div>
+          </div>
+          <div class="certificate_container d-flex col-md-4 col-12">
+            <div class="certificate_img">
+              <img src="images/profile-img-3.jpg" alt="" />
+            </div>
+            <div class="certificate-desc mr-3">
+              <p>
+                الألم في حد ذاته مهم جدًا، ويتبعه زيادة في عدد الأشخاص، لكنه
+                يحدث في وقت يشعرون فيه بألم ومعاناة كبيرة، أو يتألمون
+              </p>
+              <span>ميشيل جونسون</span>
+              <span class="d-block">مصمم</span>
+            </div>
+          </div>
+          <div class="certificate_container d-flex col-md-4 col-12">
+            <div class="certificate_img">
+              <img src="images/pexels-reneterp-2505026.jpg" alt="" />
+            </div>
+            <div class="certificate-desc mr-3">
+              <p>
+                الألم في حد ذاته مهم جدًا، ويتبعه زيادة في عدد الأشخاص، لكنه
+                يحدث في وقت يشعرون فيه بألم ومعاناة كبيرة، أو يتألمون
+              </p>
+              <span>روبنسون ميشيل</span>
+              <span class="d-block">مصمم</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <secction class="subscribe-section">
+      <div class="subscribe-desc text-white">
+        <h2>اشترك في نشرتنا الاخبارية</h2>
+        <p class="mt-4 mb-3">
+          اشترك في النشرة الإخبارية لدينا لتكون أول من يعرف بأحدث أخبار الشركة
+          لانة يوجد العديد من الشركات التي قد تستغل اسم السركة لمصلحتهاو....
+          والعروض الخاصة والخصومات.
+        </p>
+        <input type="email" placeholder="الاسم@example.com" />
+        <button class="btn mr-5 btn-warning">اشترك</button>
+      </div>
+    </secction>
+
+    <section class="section bg-light latest-news-section">
+      <div class="container">
+        <div class="row">
+          <div class="card-conainer col-md-4 mb-4 col-12">
+            <div class="card p-3 latest-news-card" style="width: 100%">
+              <a href="blog.html"
+                ><img
+                  class="card-img-top"
+                  src="images/blog-bg-1.jpg"
+                  alt="Card image cap"
+              /></a>
+              <div class="card-body">
+                <span>24 مايو 2024</span>
+                <h6 class="card-title">مصدرك لمراقبة بيانات السوق اليوم....</h6>
+                <p class="card-text">
+                  يجب أن يكون العميل حذرًا للغاية، ويجب على العميل اختيار منتج
+                  الشركة لانة يوجد العديد من الشركات التي قد تستغل اسم السركة
+                  لمصلحتهاو....
+                </p>
+                <a href="blog.html" class="btn btn-warning">عرض التفاصيل</a>
+              </div>
+            </div>
+          </div>
+          <div class="card-conainer col-md-4 mb-4 col-12">
+            <div class="card p-3 latest-news-card" style="width: 100%">
+              <a href="blog.html"
+                ><img
+                  class="card-img-top"
+                  src="images/service-item-bg-1.jpg"
+                  alt="Card image cap"
+              /></a>
+              <div class="card-body">
+                <span>24 مايو 2024</span>
+                <h6 class="card-title">مصدرك لمراقبة بيانات السوق اليوم....</h6>
+                <p class="card-text">
+                  يجب أن يكون العميل حذرًا للغاية، ويجب على العميل اختيار منتج
+                  الشركة لانة يوجد العديد من الشركات التي قد تستغل اسم السركة
+                  لمصلحتهاو....
+                </p>
+                <a href="blog.html" class="btn btn-warning">عرض التفاصيل</a>
+              </div>
+            </div>
+          </div>
+          <div class="card-conainer col-md-4 mb-4 col-12">
+            <div class="card p-3 latest-news-card" style="width: 100%">
+              <a href="blog.html"
+                ><img
+                  class="card-img-top"
+                  src="images/blog-bg-3.jpg"
+                  alt="Card image cap"
+              /></a>
+              <div class="card-body">
+                <span>24 مايو 2024</span>
+                <h6 class="card-title">مصدرك لمراقبة بيانات السوق اليوم....</h6>
+                <p class="card-text">
+                  يجب أن يكون العميل حذرًا للغاية، ويجب على العميل اختيار منتج
+                  الشركة لانة يوجد العديد من الشركات التي قد تستغل اسم السركة
+                  لمصلحتهاو....
+                </p>
+                <a href="blog.html" class="btn btn-warning">عرض التفاصيل</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="row upper-footer">
+        <div class="mb-5 first-column col-lg-3 col-md-6 col-12">
+          <h4>
+            <img src="images/logo.png" alt="img" />
+          </h4>
+          <p class="mt-3 mb-4">نحن مستعدون لمساعدتك دائما.</p>
+          <span class="mb-3 address">210-2750 شارع كوادرا فيكتوريا، كندا</span>
+          <span class="contact">الهاتف: +324-5442-415</span>
+          <span class="contact">الفاكس: +324-5442-415</span>
+          <span class="contact">البريد الإلكتروني:</span>
+          <span class="contact">support@construction.com</span>
+        </div>
+        <div class="mb-5 second-column col-lg-3 col-md-6 col-12">
+          <h4>روابط سريعة</h4>
+          <a class="text-warning mt-5" href="index.html">> الرئيسة</a>
+          <a class="text-warning mt-4" href="#">> معلومات عنا</a>
+          <a class="text-warning mt-4" href="#">> الصفحات</a>
+          <a class="text-warning mt-4" href="blog.html">> مدونة</a>
+          <a class="text-warning mt-4" href="#">> اتصل بنا</a>
+        </div>
+        <div class="mb-5 third-column col-lg-3 col-md-6 col-12">
+          <h4>المنشور الأخير</h4>
+          <div>
+            <div class="border-bottom mb-4">
+              <a class="first d-flex" href="blog.html">
+                <img
+                  class="mb-2"
+                  src="images/footer-thumb-img-1.jpg"
+                  alt="img"
+                />
+                <div class="third-column-desc">
+                  <p class="mr-4">شركة بناء</p>
+                  <span class="mr-4">10 يونيو 2024</span>
+                </div>
+              </a>
+            </div>
+            <div class="border-bottom mb-4">
+              <a class="second d-flex" href="blog.html">
+                <img
+                  class="mb-2"
+                  src="images/footer-thumb-img-2.jpg"
+                  alt="img"
+                />
+                <div class="third-column-desc">
+                  <p class="mr-4">شركة بناء</p>
+                  <span class="mr-4">10 يونيو 2024</span>
+                </div>
+              </a>
+            </div>
+            <div class="border-bottom mb-4">
+              <a class="third d-flex" href="blog.html">
+                <img
+                  class="mb-2"
+                  src="images/footer-thumb-img-3.jpg"
+                  alt="img"
+                />
+                <div class="third-column-desc">
+                  <p class="mr-4">شركة بناء</p>
+                  <span class="mr-4">10 يونيو 2024</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="mb-5 fourth-column col-lg-3 col-md-6 col-12">
+          <h4>اتصل بنا</h4>
+          <p class="mb-4 mt-4">
+            اشترك في النشرة الإخبارية لدينا للحصول على أخبار مهمة وعروض مذهلة
+            ومعلومات داخلية:
+          </p>
+          <input type="text" placeholder="اكتب بريدك الالكتروني" />
+          <button class="btn btn-warning">اشترك</button>
+          <div class="icons-group mt-4">
+            <a href=""
+              ><i
+                class="d-inline-block fa fa-pinterest"
+                style="font-size: 20px"
+              ></i
+            ></a>
+            <a href="">
+              <i
+                class="d-inline-block fa fa-youtube"
+                style="font-size: 20px"
+              ></i
+            ></a>
+            <a href="">
+              <i
+                class="d-inline-block fa fa-facebook"
+                style="font-size: 20px"
+              ></i
+            ></a>
+            <a href="">
+              <i
+                class="d-inline-block fa fa-linkedin"
+                style="font-size: 20px"
+              ></i
+            ></a>
+            <a href="">
+              <i class="d-inline-block fa fa-google" style="font-size: 20px"></i
+            ></a>
+            <a href="">
+              <i
+                class="d-inline-block fa fa-twitter"
+                style="font-size: 20px"
+              ></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="row below-footer">
+        <div class="pr-5 col-lg-9 col-12">جميع الحقوق محفوظة لـ Runhill بواسطة <a href="https://envytheme.com/">EnvyTheme</a></div>
+        <div class="pr-5 col-lg-3 col-12"><a class="ml-3" href="index.html"> سياسة الخصوصية</a>|<a class="mr-3" href="index.html">الشروط والأحكام </a></div>
+      </div>
+    </footer>
+    <!--scripts -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
