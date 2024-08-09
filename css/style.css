@@ -184,7 +184,7 @@ nav.navbar {
 /******* subscribe-section ********/
 .subscribe-section {
     display: block;
-    background-image: url('../images/subscribe-our-newsletter-bg.jpg');
+    background-image: url('../css/images/subscribe-our-newsletter-bg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
